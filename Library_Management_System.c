@@ -18,7 +18,7 @@ int main() {
     int choice;
     
     FILE *fptr;
-    fptr=fopen("G:\\folder\\librarybooks.bin","ab+");
+    fptr=fopen("librarybooks.bin","ab+");
     printf("Enter number of books currently in library record:");
     scanf("%d",&bookCount);
     rewind(fptr);
